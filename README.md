@@ -10,11 +10,11 @@ Visão Geral da Implementação de uma API que Recupera o Histórico de Negocia�
 
 Microserviço de YahooFinance, que inclui:
 
-Aplicação ASP.NET Core Web API
-Princípios de REST API, operações CRUD
-Conexão e containerização de banco de dados Redis
-Implementação do Padrão Repository
-Implementação do Swagger Open API
+- Aplicação ASP.NET Core Web API
+- Princípios de REST API, operações CRUD
+- Conexão e containerização de banco de dados Redis
+- Implementação do Padrão Repository
+- Implementação do Swagger Open API
 
 Configuração do Docker Compose para o Microsserviço no Docker
 
