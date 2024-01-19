@@ -1,0 +1,96 @@
+{
+  "chart": {
+    "result": [
+      {
+        "meta": {
+          "currency": "BRL",
+          "symbol": "PETR4.SA",
+          "exchangeName": "SAO",
+          "instrumentType": "EQUITY",
+          "firstTradeDate": 946900800,
+          "regularMarketTime": 1705586817,
+          "gmtoffset": -10800,
+          "timezone": "BRST",
+          "exchangeTimezoneName": "America/Sao_Paulo",
+          "regularMarketPrice": 37.93,
+          "chartPreviousClose": 35.84,
+          "priceHint": 2,
+          "currentTradingPeriod": {
+            "timezone": null,
+            "start": 0,
+            "end": 0,
+            "gmtoffset": 0
+          },
+          "dataGranularity": "1d",
+          "range": "1mo",
+          "validRanges": [
+            "1d",
+            "5d",
+            "1mo",
+            "3mo",
+            "6mo",
+            "1y",
+            "2y",
+            "5y",
+            "10y",
+            "ytd",
+            "max"
+          ]
+        },
+        "timestamp": [
+          1702900800,
+          1702987200,
+          1703073600,
+          1703160000
+        ],
+        "indicators": {
+          "quote": [
+            {
+              "close": [
+                35.84000015258789,
+                36.25,
+                36.380001068115234,
+                36.38999938964844
+              ],
+              "open": [
+                1,
+                1.1,
+                1.05,
+                1.90
+              ],
+              "low": [
+                35.58000183105469,
+                35.810001373291016,
+                36.290000915527344,
+                36.06999969482422
+              ],
+              "high": [
+                36.29999923706055,
+                36.25,
+                36.7400016784668,
+                36.68000030517578
+              ],
+              "volume": [
+                44474300,
+                32183000,
+                38947900,
+                30511900
+              ]
+            }
+          ],
+          "adjclose": [
+            {
+              "adjclose": [
+                35.84000015258789,
+                36.25,
+                36.380001068115234,
+                36.38999938964844
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "error": null
+  }
+}

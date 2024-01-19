@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  yahoofinancedb:
+    image: redis:alpine
+
+  yahoofinance.api:
+    image: ${DOCKER_REGISTRY-}yahoofinanceapi
+    build:
+      context: .
+      dockerfile: src/YahooFinance.API/Dockerfile

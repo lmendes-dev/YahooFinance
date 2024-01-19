@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F9928753-A7BF-4CBF-9A53-7EA5DE93BAD2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YahooFinance.API", "src\YahooFinance.API\YahooFinance.API.csproj", "{5D7FB1CD-FFA7-49D1-BC54-20DC230BC082}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YahooFinance.Core", "src\YahooFinance.Core\YahooFinance.Core.csproj", "{8F98DADC-2C49-4116-A562-76092ED5494C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YahooFinance.Infrastructure", "src\YahooFinance.Infrastructure\YahooFinance.Infrastructure.csproj", "{F71735E9-4C42-4F16-9114-47C26FA39033}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YahooFinance.UnitTest", "src\YahooFinance.UnitTest\YahooFinance.UnitTest.csproj", "{0387A5E9-FDD1-4EA3-96D4-8C653E617A13}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{BC0BB8D5-F639-4432-A34E-48D6BC94446B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D7FB1CD-FFA7-49D1-BC54-20DC230BC082}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D7FB1CD-FFA7-49D1-BC54-20DC230BC082}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D7FB1CD-FFA7-49D1-BC54-20DC230BC082}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D7FB1CD-FFA7-49D1-BC54-20DC230BC082}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F98DADC-2C49-4116-A562-76092ED5494C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F98DADC-2C49-4116-A562-76092ED5494C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F98DADC-2C49-4116-A562-76092ED5494C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F98DADC-2C49-4116-A562-76092ED5494C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F71735E9-4C42-4F16-9114-47C26FA39033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F71735E9-4C42-4F16-9114-47C26FA39033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F71735E9-4C42-4F16-9114-47C26FA39033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F71735E9-4C42-4F16-9114-47C26FA39033}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0387A5E9-FDD1-4EA3-96D4-8C653E617A13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0387A5E9-FDD1-4EA3-96D4-8C653E617A13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0387A5E9-FDD1-4EA3-96D4-8C653E617A13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0387A5E9-FDD1-4EA3-96D4-8C653E617A13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC0BB8D5-F639-4432-A34E-48D6BC94446B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC0BB8D5-F639-4432-A34E-48D6BC94446B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC0BB8D5-F639-4432-A34E-48D6BC94446B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC0BB8D5-F639-4432-A34E-48D6BC94446B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5D7FB1CD-FFA7-49D1-BC54-20DC230BC082} = {F9928753-A7BF-4CBF-9A53-7EA5DE93BAD2}
+		{8F98DADC-2C49-4116-A562-76092ED5494C} = {F9928753-A7BF-4CBF-9A53-7EA5DE93BAD2}
+		{F71735E9-4C42-4F16-9114-47C26FA39033} = {F9928753-A7BF-4CBF-9A53-7EA5DE93BAD2}
+		{0387A5E9-FDD1-4EA3-96D4-8C653E617A13} = {F9928753-A7BF-4CBF-9A53-7EA5DE93BAD2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5DB10D8-A4A8-4514-9346-8A7D733A8C61}
+	EndGlobalSection
+EndGlobal
