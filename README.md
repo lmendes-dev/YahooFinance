@@ -18,25 +18,25 @@ Microserviço de YahooFinance, que inclui:
 
 Configuração do Docker Compose para o Microsserviço no Docker
 
-Containerização do microsserviço
-Containerização do bancos de dados
-Sobreposição de variáveis de ambiente
+- Containerização do microsserviço
+- Containerização do bancos de dados
+- Sobreposição de variáveis de ambiente
 
 Executar o Projeto
 
-Você precisará das seguintes ferramentas:
-Visual Studio 2022
-.NET 8
-Docker Desktop
+- Você precisará das seguintes ferramentas:
+- Visual Studio 2022
+- .NET 8
+- Docker Desktop
 
 # Instalação
 
 Siga estes passos para configurar o seu ambiente de desenvolvimento: 
-Clone o repositório
-No diretório raiz, que inclui os arquivos docker-compose.yml, execute o seguinte comando:
+- Clone o repositório
+- No diretório raiz, que inclui os arquivos docker-compose.yml, execute o seguinte comando:
 
 docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
 
 Você pode iniciar o microsserviço na seguinte URL:
 
-Yahoo Finance API -> http://localhost:8080/swagger/index.html
+- Yahoo Finance API -> http://localhost:8080/swagger/index.html
