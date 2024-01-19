@@ -4,7 +4,7 @@ Visão Geral da Implementação de uma API que Recupera o Histórico de Negocia�
 
 # O que está incluído neste repositório
 
-# Microserviço de YahooFinance, que inclui:
+Microserviço de YahooFinance, que inclui:
 
 Aplicação ASP.NET Core Web API
 Princípios de REST API, operações CRUD
@@ -12,13 +12,13 @@ Conexão e containerização de banco de dados Redis
 Implementação do Padrão Repository
 Implementação do Swagger Open API
 
-# Configuração do Docker Compose para o Microsserviço no Docker
+Configuração do Docker Compose para o Microsserviço no Docker
 
 Containerização do microsserviço
 Containerização do bancos de dados
 Sobreposição de variáveis de ambiente
 
-# Executar o Projeto
+Executar o Projeto
 
 Você precisará das seguintes ferramentas:
 Visual Studio 2022
