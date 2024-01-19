@@ -1,6 +1,7 @@
 # Yahoo Finance
 
 Visão Geral da Implementação de uma API que Recupera o Histórico de Negociações da Moeda Selecionada nos Últimos 30 Dias.
+![image](https://github.com/lmendes-dev/YahooFinance/assets/69693189/c5bbd776-6e60-47e0-b11b-7225893b4a96)
 
 # O que está incluído neste repositório
 
