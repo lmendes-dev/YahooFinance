@@ -39,4 +39,4 @@ docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
 
 Você pode iniciar o microsserviço na seguinte URL:
 
-- Yahoo Finance API -> http://localhost:8080/swagger/index.html
+- Yahoo Finance API -> http://localhost:59208/swagger/index.html
